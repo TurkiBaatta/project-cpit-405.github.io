@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Navbar Style */
+
+.nav {
+    padding: 15px;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: rgb(89, 117, 241);
+}
+
+.nav li {
+    display: inline;
+    top: 0;
+}
+
+.sticky {
+    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.menu a {
+    margin: 15px;
+    font-size: 15px;
+    color: rgb(19, 17, 17);
+}
+
+.menu a:hover {
+    color: #e1e0ea;
+}
+
+
+/* Home section style */
+.home_section {
+    height: 650px;
+    background-size: cover;
+    background-image: url(https://www.cgdev.org/sites/default/files/2024-03/dissanayake_labour_international_development_card-cover.jpg);
+}
+
+.home_section2 {
+    height: 650px;
+    background-size: cover;
+    background-image: url(https://www.touristsaudiarabia.com/wp-content/uploads/2023/05/shutterstock_1224851173.jpg);
+}
+
+.home_section3 {
+    height: 650px;
+    background-size: cover;
+    background-image: url(https://saudigazette.com.sa/uploads/images/2019/07/11/1293968.jpg);
+}
+
+.shadow {
+    height: 100%;
+    background: rgba(49, 48, 48, 0.6);
+}
+
+.view {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.view h1 {
+    font-size: 60px;
+    color: white;
+    text-transform: capitalize;
+}
+
+.view span {
+    background: linear-gradient(to left,
+            blue,
+            white,
+            red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+.details1 {
+    padding: 80px 16px;
+    background: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.details1 .title {
+    text-align: center;
+}
+
+.title h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.title p {
+    font-size: 15px;
+    color: gray;
+}
+
+.details2 {
+    padding: 80px 16px;
+    background: rgb(242, 242, 244);
+}
+
+.details2 .title {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border: 2px solid black;
+    border-radius: 10px;
+    border-color: #96D4D4;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+div.polaroid {
+    width: 40%;
+    display: inline-block;
+    background-color: white;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+div.polaroid:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+div.container {
+    text-align: center;
+    padding: 8px 18px;
+}
+
+.inline_img {
+    height: 300px;
+    width: 100%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+.weather_card {
+    max-width: 400px;
+    margin: auto;
+    padding: auto;
+    text-align: center;
+}
+
+.details3 {
+    padding: 80px 16px;
+    background: rgb(255, 255, 255);
+}
+
+.details3 h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.details3 p {
+    font-size: 15px;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.details4 {
+    padding: 80px 16px;
+    background: rgb(247, 245, 245);
+}
+
+.details4 h1 {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.details4 p {
+    font-size: 15px;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.details4 li {
+    display: inline;
+    text-decoration: none;
+    padding: 5px 16px;
+    border: 1px solid black;
+}
+
+.imageflex {
+    display: flex;
+}
+
+.imageflexcontent {
+    margin-left: 5px;
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    margin: 20px;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.input-amount,
+.input-from,
+.input-to {
+    margin-bottom: 20px;
+}
+
+input,
+select {
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select {
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.btn {
+    background: blue;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: lightblue;
+}
+
+.output {
+    margin-top: 20px;
+}
